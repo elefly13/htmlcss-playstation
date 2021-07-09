@@ -50,6 +50,10 @@ body {
 /* fine sezione banner */
 
 /* inizio sezione news */
+.ms_news_img {
+    height: 100px;
+    border-radius: 10px;
+}
 /* fine sezione news */
 
 /* inizio sezione PS4 */
@@ -89,7 +93,7 @@ body {
 }
 .debug .ms_junbotron,
 /* .debug .ms_ps5, */
-.debug .ms_news,
+/* .debug .ms_news, */
 .debug .ms_psplus,
 .debug .ms_psnow {
     background-color: lightgreen;
@@ -118,6 +122,9 @@ body {
 }
 .debug .ms_card_play {
     background-color: purple;
+}
+.debug .ms_news_img {
+    background-color: coral;
 }
 
 /* /debug  */
