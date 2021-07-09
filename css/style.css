@@ -8,9 +8,17 @@
 
 /* header  */
 /* inizio sezione navbar-brand */
+.ms_brand {
+    width: 100%;
+    height: 50px;
+}
 /* fine sezione navbar-brand */
 
 /* inizio sezione navbar-menu */
+.ms_menu {
+    width: 100%;
+    height: 80px;
+}
 /* /fine sezione navbar-menu */
 /* /header  */
 
@@ -47,12 +55,52 @@
 /* /main */
 
 /* footer  */
-/* inizio sezione sx */
-/* fine sezione sx */
+/* inizio sezione foot-top */
+/* fine sezione foot-top */
 
-/* inizio sezione dx */
-/* fine sezione dx */
+/* inizio sezione foot-bottom */
+/* fine sezione foot-bottom */
 /* /footer  */
 
 /* debug */
+.debug {
+    color: red;
+    text-align: center;
+}
+.debug .ms_brand {
+    background-color: black;
+}
+.debug .ms_menu {
+    background-color: cornsilk;
+}
+.debug .ms_junbotron,
+.debug .ms_ps5,
+.debug .ms_news,
+.debug .ms_psplus,
+.debug .ms_psnow {
+    background-color: lightgreen;
+    width: 100%;
+    height: 200px;
+}
+.debug .ms_play,
+.debug .ms_banner,
+.debug .ms_ps4,
+.debug .ms_sconti,
+.debug .ms_social{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 200px;
+}
+.debug .ms_foot_top {
+    background-color: midnightblue;
+    width: 100%;
+    height: 200px;
+
+}
+.debug .ms_foot_bottom {
+    background-color: paleturquoise;
+    width: 100%;
+    height: 200px;
+}
+
 /* /debug  */
