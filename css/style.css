@@ -6,10 +6,23 @@
 /* common */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .ms_btn_black {
     border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+.ms_btn_red {
+    border-radius: 20px;
+}
+.ms_btn_blue {
+    border-radius: 20px;
+}
+h5 {
+    color: grey;
+}
+
 /* /common */
 
 /* header  */
@@ -29,32 +42,73 @@ body {
 /* fine sezione navbar-brand */
 
 /* inizio sezione navbar-menu */
-.ms_menu {
+/* .ms_menu {
     width: 100%;
     height: 80px;
+    background-color: white;
+} */
+.ms_lens img {
+   width: 30px;
+   margin-left: 10px;
+   margin-right: 10px;  
+}
+.ms_menu .nav-link {
+    color: rgba(0, 0, 0, 1);
 }
 /* /fine sezione navbar-menu */
 /* /header  */
 
 /* main  */
 /* inizio sezione junbotron */
+.ms_jumbo_box {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.ms_jumbo_img img {
+    width: 250px;
+}
 /* fine sezione junbotron */
 
 /* inizio sezione play */
 .ms_card_play {
-    height: 100px;
+    height: 100%;
     border-radius: 15px;
+}
+.ms_card_play img {
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;  
 }
 /* fine sezione play */
 
 /* inizio sezione PS5 */
 .ms_ps5 {
-    height: 300px;
+  
+    text-align: center;
+    color: black;
+}
+.ms_ps5 p {
+    color: blue;
+}
+.ms_console_img {
+    width: 100%;
+    height: 650px;
+}
+.ms_console_img img {
+    width: 100%;  
 }
 .ms_ps5_img {
-    border: 1px solid black;
+    width: 100%;
+    height: 300px;
 }
-
+.ms_ps5_img img {
+    width: 80%;
+}
+.ms_ps5_img p {
+    color: grey;
+}
 /* fine sezione PS5 */
 
 /* inizio sezione banner */
@@ -109,16 +163,16 @@ body {
 
 /* debug */
 .debug {
-    color: red;
-    text-align: center;
+    /* color: red; */
+    /* text-align: center; */
 }
 .debug .ms_brand {
     background-color: black;
 }
-.debug .ms_menu {
+/* .debug .ms_menu {
     background-color: cornsilk;
-}
-.debug .ms_junbotron,
+} */
+/* .debug .ms_junbotron, */
 /* .debug .ms_ps5, */
 /* .debug .ms_news, */
 .debug .ms_psplus,
