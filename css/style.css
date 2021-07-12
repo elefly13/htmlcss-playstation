@@ -160,13 +160,53 @@ h5 {
 /* fine sezione news */
 
 /* inizio sezione PS4 */
+.ms_ps4 {
+    color: black;
+    text-align: center;
+}
+.ms_ps4 p {
+    color: grey;
+}
+.ms_ps4_img {
+    width: 100%;
+}
+.ms_ps4_img img {
+    width: 100%;
+}
 /* fine sezione PS4 */
 
 /* inizio sezione PSplus */
-.ms_psplus_img {
-    width: 100%;
-    height: 200px;
+.ms_psplus {
+    background-color: rgb(190, 188, 187);
 }
+.ms_psplus_imgsx {
+    width: 100%;
+}
+.ms_psplus_imgsx img {
+    width: 60%;
+}
+.ms_psplus_img_dx {
+    width: 100%;
+}
+.ms_psplus_img_dx img {
+    width: 100%;
+}
+.ms_psplus h6 {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ms_psplus_btn_gray .btn {
+    background-color:rgb(217, 218, 220);
+    border-radius: 20px;
+    color: blue;
+    border: none;
+}
+.ms_box_psplus {
+    height: 100%;
+    padding-top: 70px;
+}
+
 /* fine sezione PSplus */
 
 /* inizio sezione sconti */
@@ -213,7 +253,7 @@ h5 {
 /* .debug .ms_junbotron, */
 /* .debug .ms_ps5, */
 /* .debug .ms_news, */
-.debug .ms_psplus,
+/* .debug .ms_psplus, */
 .debug .ms_psnow {
     background-color: lightgreen;
     width: 100%;
@@ -240,7 +280,7 @@ h5 {
     height: 200px;
 }
 .debug .ms_card_play,
-.debug .ms_psplus_img,
+/* .debug .ms_psplus_img, */
 .debug .ms_psnow_img {
     background-color: purple;
 }
