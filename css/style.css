@@ -65,6 +65,14 @@ h5 {
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
+    background-size: cover;
+}
+.ms_jumbo_box .container {
+    position: relative;
+}
+.ms_jumbo_box .row {
+    position: absolute;
+    bottom: 40px;
 }
 .ms_jumbo_img img {
     width: 250px;
@@ -101,7 +109,7 @@ h5 {
 }
 .ms_ps5_img {
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 .ms_ps5_img img {
     width: 80%;
@@ -112,13 +120,43 @@ h5 {
 /* fine sezione PS5 */
 
 /* inizio sezione banner */
+.ms_banner {
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ms_banner .container-fluid {
+    position: relative;
+}
+.ms_banner .row {
+    position: absolute;
+    bottom: 50px;
+}
+.ms-banner-img {
+    width: 250px;
+}
+.ms-banner-img img{
+    width: 250px;
+}
 /* fine sezione banner */
 
 /* inizio sezione news */
-.ms_news_img {
-    height: 100px;
-    border-radius: 10px;
+.ms_news {
+    background-color: rgb(31, 31, 31);
 }
+.ms_news_img {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.ms_news_img img {
+    width: 100%;
+}
+
 /* fine sezione news */
 
 /* inizio sezione PS4 */
@@ -182,7 +220,7 @@ h5 {
     height: 300px;
 }
 /* .debug .ms_play, */
-.debug .ms_banner,
+/* .debug .ms_banner, */
 /* .debug .ms_ps4, */
 /* .debug .ms_sconti, */
 .debug .ms_social{
