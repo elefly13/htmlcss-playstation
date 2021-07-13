@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.wrappwer {
+    width: 100%;
+    height: 100%;
+}
+.ms_btn_black {
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ms_btn_red {
+    border-radius: 20px;
+}
+.ms_btn_blue {
+    border-radius: 20px;
+}
+h5 {
+    color: grey;
+}
+
+/* /common */
+
+/* header  */
+/* inizio sezione navbar-brand */
+.ms_brand {
+    position: sticky;
+    background-color: black;
+}
+.ms_brand_img {
+    width: 100%;
+    height: 30px;
+}
+.ms_brand_img img {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+/* fine sezione navbar-brand */
+
+/* inizio sezione navbar-menu */
+/* .ms_menu {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+} */
+.ms_lens img {
+   width: 30px;
+   margin-left: 10px;
+   margin-right: 10px;  
+}
+.ms_menu .nav-link {
+    color: rgba(0, 0, 0, 1);
+}
+.ms_menu {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: translateZ(0px);
+}
+.ms_font {
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+}
+/* /fine sezione navbar-menu */
+/* /header  */
+
+/* main  */
+/* inizio sezione junbotron */
+.ms_jumbo_box {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 700px;
+    background-size: cover;
+}
+.ms_jumbo_box .container {
+    position: relative;
+}
+.ms_jumbo_box .row {
+    position: absolute;
+    bottom: 40px;
+}
+.ms_jumbo_img img {
+    width: 250px;
+}
+/* fine sezione junbotron */
+
+/* inizio sezione play */
+.ms_card_play {
+    height: 100%;
+    border-radius: 15px;
+    transform: 1s ease 2s;
+}
+.ms_card_play img {
+    width: 100%; 
+    border-radius: 15px;  
+}
+.ms_card_play:hover {
+    padding: 5px;
+    border: 2px solid blue;
+}
+
+/* fine sezione play */
+
+/* inizio sezione PS5 */
+.ms_ps5 {
+  
+    text-align: center;
+    color: black;
+}
+.ms_ps5 p {
+    color: blue;
+}
+.ms_console_img {
+    width: 100%;
+    height: 650px;
+}
+.ms_console_img img {
+    width: 100%;  
+}
+.ms_ps5_img {
+    width: 100%;
+    height: 230px;
+    margin-bottom: 30px;
+}
+.ms_ps5_img img {
+    width: 80%;
+}
+.ms_ps5_img p {
+    color: grey;
+}
+.ms_ps5_img:hover {
+    border-bottom: 2px solid blue;
+
+}
+/* fine sezione PS5 */
+
+/* inizio sezione banner */
+.ms_banner {
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ms_banner .container {
+    height: 100%;
+    position: relative;
+}
+.ms_banner .row {
+    position: absolute;
+    bottom: 50px;
+}
+.ms-banner-img {
+    width: 250px;
+}
+.ms-banner-img img{
+    width: 250px;
+}
+/* fine sezione banner */
+
+/* inizio sezione news */
+.ms_news {
+    background-color: rgb(31, 31, 31);
+}
+.ms_news_img {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.ms_news_img img {
+    width: 100%;
+}
+
+/* fine sezione news */
+
+/* inizio sezione PS4 */
+.ms_ps4 {
+    color: black;
+    text-align: center;
+}
+.ms_ps4 p {
+    color: grey;
+}
+.ms_ps4_img {
+    width: 100%;
+}
+.ms_ps4_img img {
+    width: 100%;
+}
+/* fine sezione PS4 */
+
+/* inizio sezione PSplus */
+.ms_psplus {
+    background-color: rgb(190, 188, 187);
+}
+.ms_psplus_imgsx {
+    width: 100%;
+}
+.ms_psplus_imgsx img {
+    width: 60%;
+}
+.ms_psplus_img_dx {
+    width: 100%;
+}
+.ms_psplus_img_dx img {
+    width: 100%;
+}
+.ms_psplus h6 {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ms_psplus_btn_gray .btn {
+    background-color:rgb(217, 218, 220);
+    border-radius: 20px;
+    color: blue;
+    border: none;
+}
+.ms_box_psplus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* fine sezione PSplus */
+
+/* inizio sezione sconti */
+.ms_sconti {
+    color: black;
+    text-align: center;
+}
+
+.ms_sconti_img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.ms_sconti_img img {
+    width: 100%;
+}
+
+/* fine sezione sconti */
+
+/* inizio sezione PSnow */
+
+.ms_psnow {
+    background-color: #161C3B;
+}
+.ms_psnow_imgsx {
+    width: 100%;
+}
+.ms_psnow_imgsx img {
+    width: 60%;
+}
+.ms_psnow_img_dx {
+    width: 100%;
+}
+.ms_psnow_img_dx img {
+    width: 100%;
+}
+.ms_psnow h6 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ms_psnow_btn_withe .btn {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    border: none;
+}
+.ms_box_psnow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* fine sezione PSnow */
+
+/* inizio sezione social */
+.ms_social {
+    color: black;
+    text-align: center;
+    
+}
+.ms_social_img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ms_social_img img {
+    width: 100%;
+}
+/* fine sezione social */
+/* /main */
+
+/* footer  */
+/* inizio sezione foot-top */
+.ms_foot_top {
+    background-color: #00439B;
+}
+.ms_foot_top_img {
+    width: 20%;
+    margin-bottom: 30px;
+}
+.ms_foot_top_img img {
+    width: 100%;
+}
+.ms_foot_top ul {
+    list-style: none;
+}
+.ms_foot_top li a {
+    text-decoration: none;
+    color: white;
+}
+.ms_country::before {
+    content: url(../img/language-globe.svg);
+    width: 20px;
+    display: inline-block;
+
+}
+.ms-country span {
+    line-height: 20px;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+/* fine sezione foot-top */
+
+/* inizio sezione foot-bottom */
+.ms_foot_bottom {
+    background-color: #00439B;
+}
+#ms_sie_logo {
+    width: 20%;
+    margin-bottom: 30px;
+}
+#ms_sie_logo img {
+    width: 100%;
+}
+.ms_foot_bottom p {
+    font-size: 12px;
+}
+.ms_foot_bottom a {
+    color: white;
+}
+/* fine sezione foot-bottom */
+/* /footer  */
+
+/* debug */
+.debug {
+    /* color: red; */
+    /* text-align: center; */
+}
+.debug .ms_brand {
+    background-color: black;
+}
+/* .debug .ms_menu {
+    background-color: cornsilk;
+} */
+/* .debug .ms_junbotron, */
+/* .debug .ms_ps5, */
+/* .debug .ms_news, */
+/* .debug .ms_psplus, */
+.debug .ms_psnow {
+    background-color: lightgreen;
+    width: 100%;
+    height: 300px;
+}
+/* .debug .ms_play, */
+/* .debug .ms_banner, */
+/* .debug .ms_ps4, */
+/* .debug .ms_sconti, */
+.debug .ms_social{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 300px;
+}
+.debug .ms_foot_top {
+    background-color: midnightblue;
+    width: 100%;
+    height: 200px;
+
+}
+.debug .ms_foot_bottom {
+    background-color: paleturquoise;
+    width: 100%;
+    height: 200px;
+}
+.debug .ms_card_play
+/* .debug .ms_psplus_img, */{
+    background-color: purple;
+}
+.debug .ms_news_img,
+.ms_social_img {
+    background-color: coral;
+}
+
+/* /debug  */
