@@ -234,7 +234,7 @@ h5 {
 /* inizio sezione PSnow */
 
 .ms_psnow {
-    background-color: rgb(190, 188, 187);
+    background-color: #161C3B;
 }
 .ms_psnow_imgsx {
     width: 100%;
@@ -249,14 +249,14 @@ h5 {
     width: 100%;
 }
 .ms_psnow h6 {
-    color: black;
+    color: white;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.ms_psnow_btn_gray .btn {
-    background-color:rgb(217, 218, 220);
+.ms_psnow_btn_withe .btn {
+    background-color: white;
     border-radius: 20px;
-    color: blue;
+    color: black;
     border: none;
 }
 .ms_box_psnow {
