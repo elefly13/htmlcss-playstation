@@ -70,7 +70,32 @@ h5 {
     color: black;
     text-decoration: none;
     line-height: 40px;
+    padding-left: 10px;
 }
+.ms_font span {
+    width: 10px;
+  }
+  .ms_font span .ms_gri {
+    width: 10px;
+    color: black;
+  }
+  .ms_font span .ms_blu {
+    display: none;
+    width: 10px;
+    color: black;
+  }
+  
+  .ms_font:hover .ms_gri{
+    display: none;
+  }
+  
+   .ms_font:hover .ms_blu {
+    display: inline;
+  }
+  .ms_font:active .ms_blu {
+   transform: rotate(180deg);
+  }
+
 /* /fine sezione navbar-menu */
 /* /header  */
 
