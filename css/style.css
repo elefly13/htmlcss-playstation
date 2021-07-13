@@ -287,9 +287,48 @@ h5 {
 
 /* footer  */
 /* inizio sezione foot-top */
+.ms_foot_top {
+    background-color: #00439B;
+}
+.ms_foot_top_img {
+    width: 20%;
+}
+.ms_foot_top_img img {
+    width: 100%;
+}
+.ms_foot_top ul {
+    list-style: none;
+}
+.ms_foot_top li a {
+    text-decoration: none;
+    color: white;
+}
+.ms_country::before {
+    content: url(../img/language-globe.svg);
+    width: 20px;
+    display: inline-block;
+
+}
+.ms-country span {
+    line-height: 20px;
+    vertical-align: middle;
+    padding-left: 40px;
+}
 /* fine sezione foot-top */
 
 /* inizio sezione foot-bottom */
+.ms_foot_bottom {
+    background-color: #00439B;
+}
+#ms_sie_logo {
+    width: 10%;
+}
+#ms_sie_logo img {
+    width: 100%;
+}
+.ms_foot_bottom p {
+    font-size: 12px;
+}
 /* fine sezione foot-bottom */
 /* /footer  */
 
